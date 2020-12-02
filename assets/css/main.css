@@ -1956,7 +1956,7 @@ header.style-two .select-bar::after {
     background-color: #fafafa;
     position: relative;
     overflow: hidden;
-    /* padding: 60px 0; */
+    padding: 60px 0;
 }
 
 .banner-section .banner-content {
@@ -7577,100 +7577,128 @@ div[class*="position"] .details .area {
     -webkit-animation: none !important;
     -moz-animation: none !important;
 }
+
 .poca-newsletter-area {
-  position: relative;
-  z-index: 1;
-  background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
 }
+
 .poca-newsletter-area .newsletter-content h2 {
-  color: #ffffff;
-  font-size: 48px;
-  margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 5px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .poca-newsletter-area .newsletter-content h2 {
-      font-size: 36px;
-  }
+    .poca-newsletter-area .newsletter-content h2 {
+        font-size: 36px;
+    }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .poca-newsletter-area .newsletter-content h2 {
-      font-size: 36px;
-  }
+    .poca-newsletter-area .newsletter-content h2 {
+        font-size: 36px;
+    }
 }
+
 @media only screen and (max-width: 767px) {
-  .poca-newsletter-area .newsletter-content h2 {
-      font-size: 24px;
-  }
+    .poca-newsletter-area .newsletter-content h2 {
+        font-size: 24px;
+    }
 }
+
 .poca-newsletter-area .newsletter-content h6 {
-  color: #ffffff;
-  margin-bottom: 0;
+    color: #ffffff;
+    margin-bottom: 0;
 }
+
 @media only screen and (max-width: 767px) {
-  .poca-newsletter-area .newsletter-content h6 {
-      font-size: 14px;
-  }
+    .poca-newsletter-area .newsletter-content h6 {
+        font-size: 14px;
+    }
 }
+
 .poca-newsletter-area .newsletter-form {
-  position: relative;
-  z-index: 1;
-  width: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
 }
+
 .poca-newsletter-area .newsletter-form .form-control {
-  width: 100%;
-  height: 45px;
-  border-radius: 30px;
-  background-color: #ffffff;
-  border: none;
-  padding: 0 30px;
-  font-size: 13px;
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    padding: 0 30px;
+    font-size: 13px;
 }
+
 .poca-newsletter-area .newsletter-form .form-control:focus {
-  box-shadow: none;
+    box-shadow: none;
 }
+
 .poca-newsletter-area .newsletter-form button {
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding: 0;
-  width: 140px;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 0 30px 30px 0;
-  position: absolute;
-  line-height: 47px;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  height: 45px;
-  background-color: #218380;
-  color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0;
+    width: 140px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    position: absolute;
+    line-height: 47px;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    height: 45px;
+    background-color: #218380;
+    color: #ffffff;
 }
+
 .poca-newsletter-area .newsletter-form button:focus,
 .poca-newsletter-area .newsletter-form button:hover {
-  box-shadow: none;
-  background-color: #000000;
+    box-shadow: none;
+    background-color: #000000;
 }
+
 @media only screen and (max-width: 767px) {
-  .poca-newsletter-area .newsletter-form button {
-      width: 120px;
-      letter-spacing: 0;
-  }
+    .poca-newsletter-area .newsletter-form button {
+        width: 120px;
+        letter-spacing: 0;
+    }
 }
+
 .bg-img {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .jarallax {
-  position: relative;
-  z-index: 0;
+    position: relative;
+    z-index: 0;
 }
+
 .jarallax>.jarallax-img {
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.function {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin: 5px;
 }
