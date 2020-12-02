@@ -581,6 +581,16 @@ input[type="submit"] {
     background-position: right bottom;
 }
 
+.num,
+.sub {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-control {
+    box-shadow: none!important;
+}
+
 .account-wrapper,
 .account-wrapper .account-area {
     position: relative;
